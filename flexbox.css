@@ -1,0 +1,82 @@
+/* Global Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+}
+
+/* Adding space between and general style for each card */
+.card{
+    margin: 30px auto;
+    border: 1px solid black ;
+    padding: 30px 20px;
+    background-color: rgb(0 0 0 / 0.5);
+    border-radius: 20px;
+    max-width: 800px;
+    transition: all 0.3s ease;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+}
+.container p{
+    text-align: center;
+}
+
+.list-item-container ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.list-item-container ul li{
+    font-style: italic;
+}
+
+
+h3{
+    /* font-family: ; */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex: 1;
+}
+
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn a{
+    text-decoration: none;
+    color: rgb(9, 10, 11);
+    font-family: monospace;
+}
+.btn-primary{
+    background-color: rgb(179, 173, 169);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+}
+.btn-primary:hover {
+    transform: translateY(2px);
+    box-shadow: 0 8px 25px rgba(72, 77, 72, 0.6);
+}

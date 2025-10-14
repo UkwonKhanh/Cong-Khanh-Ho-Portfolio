@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cong Khanh Ho - Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Hi, my name is Ho Cong Khanh</h1>
+    <header>
+         <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="flexbox-projects.html">Projects</a></li> 
+                <li><a href="grid-gallery.html">Gallery</a></li> 
+                <li><a href="bootstrap-resume.html">Resume</a></li>
+            </ul>
+         </nav>
+    </header>
+        <section id="about" class="section-container">
+            <div class="content-section">
+                <h2 class="section-title">My summary</h2>
+                <p>
+                    I am working myself to be <em>a data engineer</em> in the near feature. 
+                    My passion comes from the vision that data will be <strong>excessive</strong> and how to manage it.
+                    Honestly, <mark>I just want to work with numbers</mark> and I love to work with a lot of them.
+                </p>
+                <blockquote>
+                    "Haste makes waste"
+                </blockquote>
+                <img class="profile-photo" src="./media/images/tower.jpg" width="230" alt="A tower above sea">
+            </div>
+        </section>
+        <article id="education" class="section-container">
+            <div class="content-section">
+                <h2 class="section-title">
+                    My Education
+                </h2>
+                <div id="school-info" class="container-school">
+                    <div id="school1">
+                        <p>
+                            Computer Engineer Technology - Computing Science | Algonquin college | January 2025 - July 2027
+                        </p>
+                        <p>
+                            Advanced Diploma
+                        </p>
+                    </div>
+                </div>
+                <table>
+                    <caption>Course taken at Algonquin</caption>
+                    <tr> 
+                        <th>Course</th>
+                        <th><abbr title="Grade Point Average">GPA</abbr></th>
+                    </tr>
+                    <tr>
+                        <td>CST8132  Object-Oriented Programming</td>
+                        <td>4.0</td>
+                    </tr>
+                    <tr>
+                        <td>CST8108  Network Programming Basics </td>
+                        <td>4.0</td>
+                    </tr>
+                    <tr>
+                        <td>CST8102  Operating Systems Fund (GNU/Linux)</td>
+                        <td>4.0</td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <section id="work">
+            <div class="content-section">
+                <h2 class="section-title">Work Experience</h2>
+                <ol>
+                    <li>Saveur Cafe | Server, Barista | July 2023 - September 2023
+                        <ul>
+                            <li>Received orders and recommended drinks for customers</li>
+                            <li>Observed to address customers' issues, increase customers's satisfaction</li>
+                        </ul>
+                    </li>
+                </ol>
+                <aside>
+                    <h3>Other Experience</h3>
+                    <ul>
+                        <li>Class Representative - Level 3 - Fall 2025 | Algonquin college</li>
+                        <li>Participant - Run by Greenwich - Volunteer Activity | 2023, 2024</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+        <section id="hobbies" class="section-container">
+            <div class="content-section">
+                <h2 class="section-title">Hobbies and Interests</h2>
+                <ul>
+                    <li>
+                        Soccer 
+                        <ul>
+                            <li>The reason I like is the competition and teamplaying it brings.</li>
+                        </ul>
+                        <video controls width="250" height="200" muted>
+                                <source src="./media/videos/soccer.mp4" type="video/mp4">
+                                Your browser does not support the video element.
+                        </video>
+                    <li>
+                        Photography
+                        <ul>
+                            <li>I like to capture scene that I want to look again</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Music
+                        <ul>
+                            <li>Spending time listening to music is a thing I do to relax
+                            </li>
+                        </ul>
+                        <audio controls src="./media/audio/music.mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="content-section">
+                <h2 class="section-title">Contact Form</h2>
+                <form action="index.html">
+                    <div>
+                        <label for="Name">Name</label>
+                        <input type="text" name="Name" id="Name" class="form-field">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-field">
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-field">
+                    </div>
+                    
+                    <div>
+                        <label for="Messages">Messages</label>
+                        <textarea name="Messages" id="Messages"></textarea>
+                    </div>
+                    <div>
+                        <label for="Methods">Preferred Contact Methods: </label>
+                        <select name="Methods" id="Methods">
+                            <option value="phone">Phone number</option>
+                            <option value="email">Email</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Reasons">Reason for contact: </label>
+                        <select name="Reasons" id="Reasons">
+                            <option value="job opportunity">Job opportunity</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="general inquiry">General inquiry</option>
+                        </select>
+                    </div>
+                    <button class="form-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    <footer class="footer-content">
+        <p>Phone number: +1 (514) 561-6366</p>
+        <p>Email: khan0596@algonquinlive.com</p>
+        <p>&#169; 2025, Cong Khanh</p>
+        <a href="https://www.linkedin.com/in/cong-khanh-ho-7937132a8/">LinkedIn</a>
+        <a href="https://github.com/UkwonKhanh">Github</a>
+    </footer>
+</body>
+</html>
